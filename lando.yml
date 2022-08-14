@@ -1,0 +1,7 @@
+name: my-lando-wp
+recipe: wordpress
+config:
+  webroot: .
+services:
+  myservice:
+    type: phpmyadmin
